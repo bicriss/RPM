@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    color: red;
 }
 
 body {
+    background-color: rgb(251, 248, 248) /* Deixa o fundo da cor que desejar*/ ;
+
+
     font-size: 1rem;
     font-family: 'Montserrat';
 }
@@ -21,13 +24,13 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: red;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/rpm\ 1.webp');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -57,7 +60,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(red);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -69,7 +72,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5px 5px var(red);
 }
 
 
@@ -98,7 +101,7 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--laranja-claro);
+    color: var(red);
 }
 
 #galeria {
@@ -112,7 +115,7 @@ h2 {
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/rpm\ 1.webp');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -125,13 +128,13 @@ h2 {
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(115, 0, 0, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: white;
     border: none;
     font-weight: bold;
 }
