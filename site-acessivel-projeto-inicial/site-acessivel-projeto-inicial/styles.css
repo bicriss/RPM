@@ -28,9 +28,15 @@ section {
     font-weight: 600;
 }
 
+.nav-img {
+    width: 150px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/rpm\ 1.webp');
+    background-image: url('img/rpm 1.webp');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -81,8 +87,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('') top right no-repeat,
+        url('') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -110,7 +116,7 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
